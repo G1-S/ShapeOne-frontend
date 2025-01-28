@@ -1,12 +1,18 @@
+import React from 'react'
 import Home from './pages/home/Home'
-import Services from './components/services/Services'
+import Navbar from './components/navbar/Navbar'
+import Services from './components/services/Services'        
+
 
 function App() {
     return (
-        <>
-    <Home />
-    <Services />
-    </>
+      <>
+        <Navbar/>
+        <Home />
+        <Services />
+      </>
     );
 }
+
 export default App
+
